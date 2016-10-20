@@ -1,1 +1,1 @@
-# django_BBS_simple
+django实现见得用户登录，发帖审核

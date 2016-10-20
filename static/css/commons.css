@@ -1,0 +1,227 @@
+body{
+    margin: 0 auto;
+    font: 12px Tahoma,Verdana,Arial,Helvetica,"\5b8b\4f53",sans-serif;
+}
+.not-allow{
+    cursor: not-allowed !important;
+}
+.w{
+    width: 1016px;
+    margin: 0 auto;
+}
+.hide{
+    display: none !important;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.ico {
+    background: url("/static/image/icon.png") no-repeat 0 0;
+}
+.icons {
+    background: url("/static/image/tip.png") no-repeat 0 0;
+}
+.hand-icon {
+    background: url("/static/image/icon_18_118.png") no-repeat scroll 0 0 transparent;
+}
+.pinglun {
+    background: url("/static/image/pinglun.png?v=2.7") no-repeat 0 0;
+}
+
+.pub-icons {
+    background: url("/static/image/bottom.png?v=2.8") no-repeat 0 0;
+}
+
+a img {
+    border: 0 none;
+}
+em, i {
+    font-style: normal;
+}
+
+textarea {
+    outline: 0 !important;
+    resize: vertical;
+    overflow: auto;
+    word-wrap: break-word;
+    word-break: break-all;
+    zoom: 1;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+
+/*  头部开始 */
+.pg-header{
+    height: 44px;
+    line-height: 44px;
+    background-color: #2459a2;
+    overflow: hidden;
+}
+.pg-header a{
+
+    text-decoration: none;
+
+}
+.pg-header .logo{
+    width: 121px;
+    height: 23px;
+    background: url("/static/image/logo.png") no-repeat 0 0;
+    float: left;
+    margin-top: 11px;
+}
+.pg-header .act-menu{
+    float: left;
+    line-height: 43px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.pg-header .act-menu a.tb{
+    color: #c0cddf;
+    margin-left: -3px;
+    padding: 0 13px 0 16px;
+    display: inline-block;
+}
+.pg-header .act-menu a.tb.active{
+    color: #fff;
+    background-color: #204982;
+}
+.pg-header .act-menu a.tb:hover{
+    color: #fff;
+    background-color: #396bb3;
+}
+.pg-header .act-menu a.active:hover {
+    color: #fff;
+    background-color: #204982;
+}
+.pg-header .key-sera{
+    float: right;
+    margin-top: 6px;
+}
+
+.pg-header .key-sera .search-txt-s{
+    background-color: #f4f4f4;
+    border: 1px solid #e0e0e0;
+    color: #333;
+    height: 25px;
+    line-height: 25px;
+    padding: 2px 2px 2px 5px;
+    width: 91px;
+    float: left;
+    outline: 0;
+}
+.pg-header .key-sera .search-txt-s:focus{
+    background-color: rgb(255, 255, 255);
+}
+
+.pg-header .key-sera a.i {
+    width: 30px;
+    height: 29px;
+    display: inline-block;
+    border: 1px solid #e0e0e0;
+    border-left: 0;
+    background-color: #f4f4f4;
+    float: left;
+}
+.pg-header .key-sera a.i span {
+    background-position: 0 -197px;
+    display: block;
+    height: 12px;
+    margin-left: 11px;
+    margin-top: 9px;
+    width: 11px;
+    _overflow: hidden;
+}
+
+
+.pg-header .action-nav {
+    float: right;
+    position: relative;
+    margin-right: 15px;
+    font-size: 12px;
+
+}
+.pg-header .action-nav a {
+    color: #c7d1dc;
+    padding: 0 15px;
+    display: inline-block;
+    vertical-align: 1px\9;
+}
+
+.pg-header .userPro-Box em {
+    border-color: #c0cddf #2459a2 #2459a2;
+    border-style: solid;
+    border-width: 5px;
+    display: block;
+    font-size: 0;
+    height: 0;
+    width: 0;
+    float: left;
+    margin-top: 20px;
+    _overflow: hidden;
+}
+
+.pg-header .action-nav .notice-box{
+    position: relative;
+    float: left;
+}
+
+.pg-header .userPro-Box img {
+    float: left;
+    margin-top: 7px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.pg-header .userPro-Box .u-nick {
+    padding: 0 7px 0 8px;
+    float: left;
+}
+.pg-header .action-nav a.active{
+    color: #fff;
+    background-color: #396bb3;
+}
+
+.pg-header .action-nav a:hover{
+    color: #fff;
+    background-color: #396bb3;
+}
+.pg-header .userPro-Box:hover em{
+    border-color:#fff #396bb3 #396bb3;
+}
+.pg-header .action-nav .active em{
+    border-color:#fff #396bb3 #396bb3;
+}
+
+.pg-header .user-opr-box {
+    width: 120px;
+    border: 1px solid #d5d5d5;
+    display: none;
+    position: absolute;
+    top: 44px;
+    z-index: 2;
+    background-color: #fff;
+}
+.pg-header .user-opr-box a{
+    text-align: center;
+    height: 31px;
+    line-height: 31px;
+    display: block;
+    color: #666;
+    border-top: 1px solid #eee;
+    font-size: 12px;
+}
+.pg-header .user-opr-box a:hover{
+    background-color:#eee
+}
+/*  头部结束 */
